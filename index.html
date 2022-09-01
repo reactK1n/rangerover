@@ -82,7 +82,7 @@
 
             <div class="d-flex gap-3 align-items-center" style="height:100%; position: relative;">
               <!-- NAVBAR -->
-              <nav class="navbar bg-light p-3 ">
+              <nav class="navbar bg-white p-3 ">
                 <div class="container-fluid">
                 
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -91,9 +91,26 @@
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                       <img href="#" src="./image/roverlogo.png" class="img m-4 "  style="width:70px; height: 50%;"></img>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      <button type="button" class="btn-close p-5" data-bs-dismiss="offcanvas" aria-label="Close" style="width: 100px !important;"></button>
                     </div>
-                    <div class="offcanvas-body p-5">
+                    <style>
+                      .offcanvas-body li a{
+                        color: rgb(210, 210, 210) !important;
+                        font-size: 3rem !important;
+                        font-weight: 600 !important;
+                        font-family: 'Times New Roman', Times, serif !important;
+                        
+                        
+                      }
+                      .offcanvas-body li:hover{
+                        border: none !important;
+
+                      }
+                      .offcanvas-body li a:hover{
+                        color: white !important;
+                      }
+                    </style>
+                    <div class="offcanvas-body p-5 bg-dark ">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
