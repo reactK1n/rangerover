@@ -80,7 +80,43 @@
     <div class="container-fluid" style="position: sticky; top:0; z-index: 3;">
         <div class="container-fluid bg-white px-5 py-4 d-flex gap-4 justify-content-between" style="height: 80px;">
 
-            <div class="d-flex gap-3 align-items-center" style="height:100%;">
+            <div class="d-flex gap-3 align-items-center" style="height:100%; position: relative;">
+              <!-- NAVBAR -->
+              <nav class="navbar bg-light p-3 ">
+                <div class="container-fluid">
+                
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <img href="#" src="./image/roverlogo.png" class="img m-4 "  style="width:70px; height: 50%;"></img>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body p-5">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                     
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Link</a>
+                        </li>
+                        
+                     
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- NAVBAR -->
                 <img href="#" src="./image/roverlogo.png" class="img me-4 "  style="width:90px; height: 80%;"></img>
                 <a href="#" class="h6  text-dark text-decoration-none d-xxl-block d-xl-block d-lg-block d-none"  style=" font-weight: bold;">VEHCLES</a>
                 <a href="#" class="h6  text-dark text-decoration-none d-xxl-block d-xl-block d-lg-block d-none"  style=" font-weight: bold;">PURCHASE</a>
