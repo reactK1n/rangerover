@@ -182,9 +182,23 @@
                         border: none !important;
                       }
 
-                      @media screen and (max-width:525px) {
+                      @media screen and (max-width:575px) {
                         html{
                         font-size: 42% !important;
+                      }
+                      .flexy >div{
+                        border: none !important;
+                        flex-direction:row !important;
+                        gap: 40px;
+                        height: 80px;
+                        align-items: center;
+                     
+
+                      }
+                      .flexy >div:hover{
+                     
+                        border-block: 2px solid black !important;
+
                       }
                       
                     
