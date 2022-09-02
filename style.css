@@ -115,8 +115,7 @@
                    .getty{
                     color: white !important;
                    }
-                    .getty .card,
-                    .sv .card{
+                    .getty .card{
                         background-color: transparent !important;
                         border: none !important;
                       }
@@ -170,7 +169,10 @@
                       }
                 
 
-                
+                      .sv .card{
+                        background-color: transparent !important;
+                        border: none !important;
+                      }
 
                       @media screen and (max-width:525px) {
                         html{
