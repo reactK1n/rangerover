@@ -198,6 +198,7 @@
                       .flexy >div:hover{
                      
                         border-block: 2px solid black !important;
+                      color: rgb(1, 80, 1) !important;
 
                       }
                       
